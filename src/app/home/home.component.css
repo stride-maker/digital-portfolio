@@ -1,3 +1,9 @@
+h1,
+p,
+button {
+  font-family: "Ubuntu", sans-serif;
+}
+
 @media (max-width: 767px) {
   img {
     padding-left: 50px;

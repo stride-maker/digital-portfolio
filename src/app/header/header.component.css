@@ -1,3 +1,41 @@
 .navbar .navbar-collapse {
   text-align: center;
 }
+.custom-toggler {
+  box-shadow: none;
+  color: #45b1ce;
+  border-style: none;
+  background-color: transparent;
+}
+.btn {
+  box-shadow: none;
+  font-family: "Ubuntu", sans-serif;
+}
+.btn:hover {
+  color: #f6e6cc;
+  padding-top: 0.75px;
+  padding-bottom: 0.75px;
+  background-color: #0b1728;
+  transition: ease-in-out 0.25s;
+}
+.btn:active {
+  text-decoration-style: solid;
+  text-decoration-line: underline;
+}
+.download {
+  color: #f6e6cc;
+  box-shadow: none;
+  font-weight: bold;
+  background-color: #0b1728;
+  font-family: "Ubuntu", sans-serif;
+}
+.download:hover {
+  padding-top: 0.75px;
+  padding-bottom: 0.75px;
+  transition: ease-in-out 0.25s;
+}
+.download:active {
+  color: #0b1728;
+  padding-top: 0.75px;
+  background-color: transparent;
+}
