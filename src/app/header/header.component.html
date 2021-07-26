@@ -1,7 +1,11 @@
 <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
     <!-- comment: to add router link to brand icon -->
-    <a class="navbar-brand" href="#">
+    <a
+      class="navbar-brand"
+      [routerLink]="['/']"
+      routerLinkActiveOptions="{ exact: true }"
+    >
       <h3>hey there!</h3>
     </a>
     <button
@@ -34,7 +38,8 @@
         <li class="nav-item px-3 py-2">
           <button
             class="btn btn-sm border border-dark rounded-pill px-4"
-            href="#"
+            [routerLink]="['/about']"
+            [routerLinkActive]="['active']"
           >
             <b>About Me</b>
           </button>
@@ -42,7 +47,8 @@
         <li class="nav-item px-3 py-2">
           <button
             class="btn btn-sm border border-dark rounded-pill px-4"
-            href="#"
+            [routerLink]="['/skills']"
+            [routerLinkActive]="['active']"
           >
             <b>My Skills</b>
           </button>
