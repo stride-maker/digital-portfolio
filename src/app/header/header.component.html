@@ -6,9 +6,10 @@
       [routerLink]="['/']"
       routerLinkActiveOptions="{ exact: true }"
     >
-      <h3>hey there!</h3>
+      <h3>home!</h3>
     </a>
     <button
+      #navbarToggler
       class="navbar-toggler custom-toggler"
       type="button"
       data-bs-toggle="collapse"
@@ -40,6 +41,7 @@
             class="btn btn-sm border border-dark rounded-pill px-4"
             [routerLink]="['/about']"
             [routerLinkActive]="['active']"
+            (click)="collapseNav()"
           >
             <b>About Me</b>
           </button>
@@ -49,6 +51,7 @@
             class="btn btn-sm border border-dark rounded-pill px-4"
             [routerLink]="['/skills']"
             [routerLinkActive]="['active']"
+            (click)="collapseNav()"
           >
             <b>My Skills</b>
           </button>
@@ -56,7 +59,7 @@
         <li class="nav-item px-3 py-2">
           <button
             class="btn btn-sm border border-dark rounded-pill px-4"
-            href="#"
+            (click)="collapseNav()"
           >
             <b>Work</b>
           </button>
@@ -64,7 +67,7 @@
         <li class="nav-item px-3 py-2">
           <button
             class="btn btn-sm border border-dark rounded-pill px-4"
-            href="#"
+            (click)="collapseNav()"
           >
             <b>Contact</b>
           </button>

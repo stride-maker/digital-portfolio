@@ -1,0 +1,23 @@
+h1,
+h3,
+h5,
+p {
+  font-family: "Ubuntu", sans-serif;
+}
+h1 {
+  text-align: right;
+  font-weight: bolder;
+  font-size: 75px;
+}
+h3 {
+  text-align: right;
+}
+h5 {
+  color: #22758b;
+}
+img {
+  border-radius: 50%;
+}
+.line {
+  border-left: 4px solid #10828c;
+}
