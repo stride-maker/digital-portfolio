@@ -1,6 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
-    <!-- comment: to add router link to brand icon -->
     <a
       class="navbar-brand"
       [routerLink]="['/']"
@@ -49,6 +48,16 @@
         <li class="nav-item px-3 py-2">
           <button
             class="btn btn-sm border border-dark rounded-pill px-4"
+            [routerLink]="['/work']"
+            [routerLinkActive]="['active']"
+            (click)="collapseNav()"
+          >
+            <b>Work</b>
+          </button>
+        </li>
+        <li class="nav-item px-3 py-2">
+          <button
+            class="btn btn-sm border border-dark rounded-pill px-4"
             [routerLink]="['/skills']"
             [routerLinkActive]="['active']"
             (click)="collapseNav()"
@@ -61,7 +70,7 @@
             class="btn btn-sm border border-dark rounded-pill px-4"
             (click)="collapseNav()"
           >
-            <b>Work</b>
+            <b>Projects</b>
           </button>
         </li>
         <li class="nav-item px-3 py-2">

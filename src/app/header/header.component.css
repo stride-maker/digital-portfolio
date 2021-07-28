@@ -24,6 +24,8 @@ h3:hover {
 }
 .btn {
   box-shadow: none;
+  margin-left: -7px;
+  margin-right: -7px;
   font-family: "Ubuntu", sans-serif;
 }
 .btn:hover {

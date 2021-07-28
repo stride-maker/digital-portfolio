@@ -1,0 +1,47 @@
+h1,
+h6,
+p,
+li {
+  font-family: "Ubuntu", sans-serif;
+}
+li {
+  font-size: 14px;
+}
+h1 {
+  font-weight: bolder;
+}
+h6 {
+  color: #10828c;
+}
+button {
+  font-size: 12px;
+  box-shadow: none;
+}
+.timeline:hover span {
+  display: none;
+}
+.timeline:hover:before {
+  content: "See my roles & responsibilities";
+}
+button:link {
+  box-shadow: none;
+}
+.circle {
+  color: #fff;
+  border-radius: 50%;
+  padding: 6px 15px 6px 15px;
+  background-color: #10828c;
+}
+.line-left {
+  text-align: left;
+  border-left: 4px solid #10828c;
+}
+.line-right {
+  text-align: end;
+  border-right: 4px solid #10828c;
+}
+@media (max-width: 575px) {
+  .tag {
+    margin-bottom: 35px;
+  }
+}
