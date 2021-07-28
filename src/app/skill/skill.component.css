@@ -1,0 +1,75 @@
+h6,
+p {
+  font-family: "Ubuntu", sans-serif;
+}
+p {
+  font-size: 14px;
+}
+h5 {
+  color: #455a64;
+  font-weight: bold;
+}
+span {
+  vertical-align: middle;
+}
+.heading {
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: "Ubuntu", sans-serif;
+}
+.subheading {
+  font-size: 14px;
+  color: #10828c;
+  font-family: "Ubuntu", sans-serif;
+}
+.skill {
+  font-size: 13px;
+  margin-left: 5px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  font-family: "Ubuntu", sans-serif;
+}
+.progress {
+  height: 6px;
+  margin-bottom: 17px;
+  background-color: #bdbdbd;
+}
+.progress-bar {
+  height: 6px;
+}
+.java .animate__animated.animate__slideInLeft {
+  --animate-duration: 0.5s;
+  background-color: #1a237e;
+}
+.hibernate .animate__animated.animate__slideInLeft {
+  --animate-duration: 1s;
+  background-color: #0d47a1;
+}
+.spring .animate__animated.animate__slideInLeft {
+  --animate-duration: 1.5s;
+  background-color: #1565c0;
+}
+.sql .animate__animated.animate__slideInLeft {
+  --animate-duration: 2s;
+  background-color: #1976d2;
+}
+.boot .animate__animated.animate__slideInLeft {
+  --animate-duration: 2.5s;
+  background-color: #1e88e5;
+}
+.cloud .animate__animated.animate__slideInLeft {
+  --animate-duration: 3s;
+  background-color: #2196f3;
+}
+.html .animate__animated.animate__slideInLeft {
+  --animate-duration: 3.5s;
+  background-color: #42a5f5;
+}
+.bootstrap .animate__animated.animate__slideInLeft {
+  --animate-duration: 4s;
+  background-color: #64b5f6;
+}
+.angular .animate__animated.animate__slideInLeft {
+  --animate-duration: 4.5s;
+  background-color: #90caf9;
+}

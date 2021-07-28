@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-work',
@@ -10,7 +11,11 @@ export class WorkComponent implements OnInit {
   ifInfosys: boolean = true;
   ifHcl: boolean = true;
 
-  constructor() {}
+  constructor(private titleService: Title) {
+    this.titleService.setTitle(
+      'Work & Past Experience of Full Stack Developer - Mohit Chaudhary'
+    );
+  }
 
   ngOnInit(): void {}
 
