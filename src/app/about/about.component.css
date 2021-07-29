@@ -16,7 +16,9 @@ h5 {
   color: #22758b;
 }
 img {
-  border-radius: 50%;
+  margin-top: 25px;
+  border-radius: 5%;
+  max-width: 80%;
 }
 .line {
   border-left: 4px solid #10828c;
