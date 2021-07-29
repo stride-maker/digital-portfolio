@@ -30,12 +30,12 @@ span {
   font-family: "Ubuntu", sans-serif;
 }
 .progress {
-  height: 6px;
+  height: 8px;
   margin-bottom: 17px;
   background-color: #bdbdbd;
 }
 .progress-bar {
-  height: 6px;
+  height: 8px;
 }
 .java .animate__animated.animate__slideInLeft {
   --animate-duration: 0.5s;

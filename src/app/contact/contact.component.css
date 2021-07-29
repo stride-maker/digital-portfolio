@@ -1,0 +1,31 @@
+h1,
+h4,
+h6 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+h4 {
+  color: #10828c;
+  font-weight: bolder;
+}
+h6 {
+  font-weight: bolder;
+}
+.facebook .animate__animated.animate__flip {
+  --animate-duration: 1s;
+}
+.linkedin .animate__animated.animate__flip {
+  --animate-duration: 1s;
+}
+.github .animate__animated.animate__flip {
+  --animate-duration: 1s;
+}
+@media (max-width: 767px) {
+  .space {
+    margin-top: 150px;
+  }
+}
