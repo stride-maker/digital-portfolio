@@ -2,13 +2,15 @@
   margin-top: -15px;
 }
 h3 {
+  padding: 5px 5px 5px 5px;
   color: #0b1728;
   font-weight: bolder;
   transition: ease-in-out 0.5s;
   font-family: "Ubuntu", sans-serif;
 }
 h3:hover {
-  transform: scale3d(0.5, 1, 1.7);
+  padding: 5px 5px 5px 5px;
+  transform: rotateY(360deg);
 }
 .navbar .navbar-collapse {
   text-align: center;
@@ -21,9 +23,9 @@ h3:hover {
 }
 .active {
   color: #f6e6cc;
-  padding-top: 1px;
-  padding-bottom: 1px;
   background-color: #0b1728;
+  margin-top: 30px;
+  transition: ease-in-out 0.25s;
 }
 .btn {
   box-shadow: none;
@@ -33,8 +35,6 @@ h3:hover {
 }
 .btn:hover {
   color: #f6e6cc;
-  padding-top: 1px;
-  padding-bottom: 1px;
   background-color: #0b1728;
   transition: ease-in-out 0.25s;
 }
@@ -48,14 +48,14 @@ h3:hover {
   font-weight: bold;
   background-color: #0b1728;
   font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
 }
 .download:hover {
-  padding-top: 1px;
-  padding-bottom: 1px;
+  color: #0b1728;
+  background-color: transparent;
   transition: ease-in-out 0.25s;
 }
 .download:active {
   color: #0b1728;
-  padding-top: 0.75px;
   background-color: transparent;
 }
