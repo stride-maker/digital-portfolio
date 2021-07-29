@@ -1,25 +1,30 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
+import { BrowserModule } from '@angular/platform-browser';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
 import { WorkComponent } from './work/work.component';
+import { HelloComponent } from './hello/hello.component';
 import { AboutComponent } from './about/about.component';
 import { SkillComponent } from './skill/skill.component';
 import { HeaderComponent } from './header/header.component';
+import { ContactComponent } from './contact/contact.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    HomeComponent,
+    WorkComponent,
+    HelloComponent,
     AboutComponent,
     SkillComponent,
-    WorkComponent,
+    HeaderComponent,
+    ContactComponent,
+    ProjectComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
