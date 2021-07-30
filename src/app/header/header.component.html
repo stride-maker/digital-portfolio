@@ -7,6 +7,8 @@
       class="navbar-brand"
       [routerLink]="['/']"
       routerLinkActiveOptions="{ exact: true }"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarCollapse.show"
     >
       <h3>hello!</h3>
     </a>
@@ -43,7 +45,8 @@
             class="btn btn-sm border border-dark rounded-pill px-4"
             [routerLink]="['/about']"
             [routerLinkActive]="['active']"
-            (click)="collapseNav()"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse.show"
           >
             <b>About Me</b>
           </button>
@@ -53,7 +56,8 @@
             class="btn btn-sm border border-dark rounded-pill px-4"
             [routerLink]="['/work']"
             [routerLinkActive]="['active']"
-            (click)="collapseNav()"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse.show"
           >
             <b>Work</b>
           </button>
@@ -63,7 +67,8 @@
             class="btn btn-sm border border-dark rounded-pill px-4"
             [routerLink]="['/skills']"
             [routerLinkActive]="['active']"
-            (click)="collapseNav()"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse.show"
           >
             <b>My Skills</b>
           </button>
@@ -73,7 +78,8 @@
             class="btn btn-sm border border-dark rounded-pill px-4"
             [routerLink]="['/projects']"
             [routerLinkActive]="['active']"
-            (click)="collapseNav()"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse.show"
           >
             <b>Projects</b>
           </button>
@@ -83,7 +89,8 @@
             class="btn btn-sm border border-dark rounded-pill px-4"
             [routerLink]="['/contact']"
             [routerLinkActive]="['active']"
-            (click)="collapseNav()"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse.show"
           >
             <b>Contact</b>
           </button>
