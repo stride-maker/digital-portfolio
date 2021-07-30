@@ -1,0 +1,39 @@
+h5 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+}
+p {
+  font-size: 13px;
+}
+#referralCarousel,
+#portfolioCarousel,
+#recipeCarousel {
+  border-width: 5px;
+  border-radius: 5px;
+  margin-left: -12px;
+  margin-right: -13px;
+  border-style: outset;
+  border-top-color: #376ab1;
+  border-left-color: #376ab1;
+  border-right-color: #376ab1;
+  border-bottom-color: #376ab1;
+}
+.download {
+  margin-left: 5px;
+  color: #f6e6cc;
+  box-shadow: none;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #0b1728;
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+}
+.download:hover {
+  color: #0b1728;
+  background-color: transparent;
+  transition: ease-in-out 0.25s;
+}
+.download:active {
+  color: #0b1728;
+  background-color: transparent;
+}
