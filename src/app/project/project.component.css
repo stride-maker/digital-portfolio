@@ -1,6 +1,5 @@
 h2,
-h5,
-.description {
+h5 {
   font-weight: bolder;
   font-family: "Ubuntu", sans-serif;
 }
@@ -25,6 +24,9 @@ p {
   border-left-color: #376ab1;
   border-right-color: #376ab1;
   border-bottom-color: #376ab1;
+}
+.carousel-indicators > button {
+  background-color: #376ab1;
 }
 .download {
   font-size: 12px;
