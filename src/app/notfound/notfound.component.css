@@ -1,0 +1,17 @@
+h1 {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: "Ubuntu", sans-serif;
+}
+p {
+  font-family: "Ubuntu", sans-serif;
+}
+button {
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+}
+@media (max-width: 767px) {
+  .space {
+    margin-top: 75px;
+  }
+}

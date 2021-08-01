@@ -11,6 +11,7 @@ import { SkillComponent } from './skill/skill.component';
 import { HeaderComponent } from './header/header.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProjectComponent } from './project/project.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ProjectComponent } from './project/project.component';
     HeaderComponent,
     ContactComponent,
     ProjectComponent,
+    NotfoundComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],

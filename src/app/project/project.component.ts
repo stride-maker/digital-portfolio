@@ -8,7 +8,9 @@ import { Title } from '@angular/platform-browser';
 })
 export class ProjectComponent implements OnInit {
   constructor(private titleService: Title) {
-    this.titleService.setTitle('Personal Project Work - Mohit Chaudahry');
+    this.titleService.setTitle(
+      'Personal Project Work of Full Stack Developer - Mohit Chaudahry'
+    );
   }
 
   ngOnInit(): void {}
