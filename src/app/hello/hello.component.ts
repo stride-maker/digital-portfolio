@@ -9,7 +9,7 @@ import { Title } from '@angular/platform-browser';
 export class HelloComponent implements OnInit {
   constructor(private titleService: Title) {
     this.titleService.setTitle(
-      'Full Stack Developer, Bengaluru - Mohit Chaudhary'
+      "I'm Mohit Chaudhary | Full Stack Developer, Bengaluru"
     );
   }
 
