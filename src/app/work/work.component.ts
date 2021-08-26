@@ -13,7 +13,7 @@ export class WorkComponent implements OnInit {
 
   constructor(private titleService: Title) {
     this.titleService.setTitle(
-      'Work & Past Experience of Full Stack Developer - Mohit Chaudhary'
+      'Mohit | Work & Past Experience of Full Stack Developer'
     );
   }
 

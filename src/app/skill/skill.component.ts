@@ -9,7 +9,7 @@ import { Title } from '@angular/platform-browser';
 export class SkillComponent implements OnInit {
   constructor(private titleService: Title) {
     this.titleService.setTitle(
-      'Skill & Expertise of Full Stack Developer - Mohit Chaudhary'
+      'Mohit | Skill & Expertise of Full Stack Developer'
     );
   }
 
