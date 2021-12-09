@@ -23,7 +23,7 @@ h1:hover {
   background-color: transparent;
 }
 .active {
-  margin-top: 10px;
+  margin-top: 25px;
   color: #f6e6cc;
   background-color: #0b1728;
   transition: ease-in-out 0.25s;
