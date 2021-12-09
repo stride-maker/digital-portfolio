@@ -1,3 +1,6 @@
+.container-fluid {
+  min-height: 90vh;
+}
 h6,
 p {
   font-family: "Ubuntu", sans-serif;
@@ -23,6 +26,7 @@ span {
   font-family: "Ubuntu", sans-serif;
 }
 .skill {
+  cursor: pointer;
   font-size: 13px;
   margin-left: 5px;
   font-weight: bold;
@@ -39,37 +43,41 @@ span {
 }
 .java .animate__animated.animate__slideInLeft {
   --animate-duration: 0.5s;
-  background-color: #1a237e;
-}
-.hibernate .animate__animated.animate__slideInLeft {
-  --animate-duration: 1s;
   background-color: #0d47a1;
 }
-.spring .animate__animated.animate__slideInLeft {
-  --animate-duration: 1.5s;
-  background-color: #1565c0;
+.boot .animate__animated.animate__slideInLeft {
+  --animate-duration: 1s;
+  background-color: #1976d2;
 }
-.sql .animate__animated.animate__slideInLeft {
+.microservices .animate__animated.animate__slideInLeft {
+  --animate-duration: 1.5s;
+  background-color: #1976d2;
+}
+.cloud .animate__animated.animate__slideInLeft {
   --animate-duration: 2s;
   background-color: #1976d2;
 }
-.boot .animate__animated.animate__slideInLeft {
+.hibernate .animate__animated.animate__slideInLeft {
   --animate-duration: 2.5s;
-  background-color: #1e88e5;
+  background-color: #2196f3;
 }
-.cloud .animate__animated.animate__slideInLeft {
+.spring .animate__animated.animate__slideInLeft {
   --animate-duration: 3s;
   background-color: #2196f3;
 }
-.html .animate__animated.animate__slideInLeft {
+.angular .animate__animated.animate__slideInLeft {
   --animate-duration: 3.5s;
-  background-color: #42a5f5;
+  background-color: #2196f3;
 }
 .bootstrap .animate__animated.animate__slideInLeft {
   --animate-duration: 4s;
   background-color: #64b5f6;
 }
-.angular .animate__animated.animate__slideInLeft {
+.html .animate__animated.animate__slideInLeft {
   --animate-duration: 4.5s;
-  background-color: #90caf9;
+  background-color: #64b5f6;
+}
+.sql .animate__animated.animate__slideInLeft {
+  --animate-duration: 5s;
+  background-color: #64b5f6;
 }
