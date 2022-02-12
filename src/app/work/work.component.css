@@ -1,10 +1,15 @@
 .container-fluid {
-  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 h1,
 h6,
 p,
-li {
+li,
+hr {
+  color: #eeeeee;
   font-family: "Ubuntu", sans-serif;
 }
 li {
@@ -14,7 +19,7 @@ h1 {
   font-weight: bolder;
 }
 h6 {
-  color: #10828c;
+  color: #0275d8;
 }
 button {
   font-size: 12px;
@@ -33,15 +38,15 @@ button:link {
   color: #fff;
   border-radius: 50%;
   padding: 6px 15px 6px 15px;
-  background-color: #10828c;
+  background-color: #0275d8;
 }
 .line-left {
   text-align: left;
-  border-left: 4px solid #10828c;
+  border-left: 4px solid #0275d8;
 }
 .line-right {
   text-align: end;
-  border-right: 4px solid #10828c;
+  border-right: 4px solid #0275d8;
 }
 @media (max-width: 575px) {
   .tag {

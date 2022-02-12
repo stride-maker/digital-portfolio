@@ -2,7 +2,7 @@
   margin-top: -15px;
 }
 h1 {
-  color: #0b1728;
+  color: #ffffff;
   font-weight: bolder;
   padding: 5px 5px 5px 5px;
   transition: ease-in-out 0.5s;
@@ -24,39 +24,47 @@ h1:hover {
 }
 .active {
   margin-top: 25px;
-  color: #f6e6cc;
+  color: #0b1728;
   background-color: #0b1728;
-  transition: ease-in-out 0.25s;
+  border-color: #0b1728;
+  transition: ease-in-out 0.5s;
 }
 .btn {
+  color: #0b1728;
   box-shadow: none;
-  margin-left: -7px;
-  margin-right: -7px;
+  margin-left: -5px;
+  margin-right: -5px;
+  background-color: #eeeeee;
+  border-radius: 10px 50px 10px 50px;
   font-family: "Ubuntu", sans-serif;
 }
 .btn:hover {
-  color: #f6e6cc;
-  background-color: #0b1728;
-  transition: ease-in-out 0.25s;
+  color: #eeeeee;
+  box-shadow: inset -10.5em 0 0 0 #0b1728, inset 10.5em 0 0 0 #0b1728;
+  transition: ease-in-out 0.5s;
 }
 .btn:active {
   text-decoration-style: solid;
   text-decoration-line: underline;
 }
 .download {
-  color: #f6e6cc;
+  color: #0b1728;
+  padding-top: 8px;
+  padding-bottom: 8px;
   box-shadow: none;
   font-weight: bold;
-  background-color: #0b1728;
+  background-color: #eeeeee;
+  border-radius: 50px 10px 50px 10px;
   font-family: "Ubuntu", sans-serif;
   text-decoration: none;
 }
 .download:hover {
-  color: #0b1728;
-  background-color: transparent;
-  transition: ease-in-out 0.25s;
+  color: #eeeeee;
+  box-shadow: inset -10.5em 0 0 0 #0b1728, inset 10.5em 0 0 0 #0b1728;
+  transition: ease-in-out 0.5s;
 }
 .download:active {
   color: #0b1728;
-  background-color: transparent;
+  box-shadow: inset -10.5em 0 0 0 #eeeeee, inset 10.5em 0 0 0 #eeeeee;
+  transition: ease-in-out 0.05s;
 }

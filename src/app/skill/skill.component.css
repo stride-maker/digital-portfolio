@@ -1,15 +1,19 @@
 .container-fluid {
-  min-height: 90vh;
+  min-height: 100vh;
 }
+h1,
 h6,
-p {
+p,
+hr {
+  color: #eeeeee;
   font-family: "Ubuntu", sans-serif;
 }
 p {
   font-size: 14px;
 }
 h5 {
-  color: #455a64;
+  color: #eeeeee;
+  font-size: 28px;
   font-weight: bold;
 }
 span {
@@ -22,7 +26,7 @@ span {
 }
 .subheading {
   font-size: 14px;
-  color: #10828c;
+  color: #0275d8;
   font-family: "Ubuntu", sans-serif;
 }
 .skill {
@@ -34,50 +38,51 @@ span {
   font-family: "Ubuntu", sans-serif;
 }
 .progress {
-  height: 8px;
+  height: 5px;
+  margin-top: 5px;
   margin-bottom: 17px;
-  background-color: #bdbdbd;
+  background-color: #0b1728;
 }
 .progress-bar {
   height: 8px;
 }
 .java .animate__animated.animate__slideInLeft {
   --animate-duration: 0.5s;
-  background-color: #0d47a1;
+  background-color: #eeeeee;
 }
 .boot .animate__animated.animate__slideInLeft {
   --animate-duration: 1s;
-  background-color: #1976d2;
+  background-color: #eeeeee;
 }
 .microservices .animate__animated.animate__slideInLeft {
   --animate-duration: 1.5s;
-  background-color: #1976d2;
+  background-color: #eeeeee;
 }
 .cloud .animate__animated.animate__slideInLeft {
   --animate-duration: 2s;
-  background-color: #1976d2;
+  background-color: #eeeeee;
 }
 .hibernate .animate__animated.animate__slideInLeft {
   --animate-duration: 2.5s;
-  background-color: #2196f3;
+  background-color: #eeeeee;
 }
 .spring .animate__animated.animate__slideInLeft {
   --animate-duration: 3s;
-  background-color: #2196f3;
+  background-color: #eeeeee;
 }
 .angular .animate__animated.animate__slideInLeft {
   --animate-duration: 3.5s;
-  background-color: #2196f3;
+  background-color: #eeeeee;
 }
 .bootstrap .animate__animated.animate__slideInLeft {
   --animate-duration: 4s;
-  background-color: #64b5f6;
+  background-color: #eeeeee;
 }
 .html .animate__animated.animate__slideInLeft {
   --animate-duration: 4.5s;
-  background-color: #64b5f6;
+  background-color: #eeeeee;
 }
 .sql .animate__animated.animate__slideInLeft {
   --animate-duration: 5s;
-  background-color: #64b5f6;
+  background-color: #eeeeee;
 }

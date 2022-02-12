@@ -1,22 +1,28 @@
 .container-fluid {
-  min-height: 90vh;
+  min-height: 100vh;
 }
 h1,
 h4,
-h6 {
+h6,
+p,
+hr {
+  color: #eeeeee;
   font-family: "Ubuntu", sans-serif;
 }
-
 h1 {
   font-size: 50px;
   font-weight: 900;
 }
 h4 {
-  color: #10828c;
+  color: #0275d8;
   font-weight: bolder;
 }
 h6 {
   font-weight: bolder;
+}
+img {
+  filter: invert(30%) sepia(96%) saturate(2888%) hue-rotate(192deg)
+    brightness(93%) contrast(98%);
 }
 .facebook .animate__animated.animate__flip {
   --animate-duration: 1s;
